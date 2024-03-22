@@ -94,4 +94,9 @@ export class AuthComponent {
   togglePanel() {
     this.isRegister = !this.isRegister;
   }
+
+
+  print() {
+    console.log(this.registrationForm.value);
+  }
 }
