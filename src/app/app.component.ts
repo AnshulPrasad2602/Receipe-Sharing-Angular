@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { NavbarComponent } from './navbar/navbar.component';
-import { FooterComponent } from './footer/footer.component';
 import { AuthComponent } from './pages/auth/auth.component';
 import { AuthService } from './service/auth/auth.service';
 
@@ -13,7 +12,6 @@ import { AuthService } from './service/auth/auth.service';
     CommonModule,
     RouterOutlet,
     NavbarComponent,
-    FooterComponent,
     AuthComponent,
   ],
   templateUrl: './app.component.html',
