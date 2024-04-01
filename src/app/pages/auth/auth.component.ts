@@ -62,6 +62,7 @@ export class AuthComponent {
           console.log('Signup successful!', response);
         },
         error: (error) => {
+          alert('Invalid Password!!!');
           console.error('Error during signup:', error);
         },
       });
